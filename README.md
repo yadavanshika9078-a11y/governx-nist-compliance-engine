@@ -27,6 +27,7 @@ Build a safe demonstration platform that:
 7. Logging disabled
 8. Backup configuration missing
 
+
 ## Technology Stack
 
 - Backend: Python and FastAPI
@@ -37,7 +38,7 @@ Build a safe demonstration platform that:
 
 ## Project Status
 
-- Internship project started: 16 July 2026
+- Internship project started: 17 July 2026
 - Repository and initial project documentation created: 19 July 2026
 - Current focus: Catching up on project setup and mock cloud-security data
 
