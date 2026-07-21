@@ -1,0 +1,17 @@
+{
+    "storage": {
+        "public_bucket": true,
+        "encryption_enabled": false
+    },
+    "iam": {
+        "mfa_enabled": false,
+        "inactive_users": 5,
+        "weak_password_policy": true
+    },
+    "network": {
+        "open_security_group": true
+    },
+    "logging": {
+        "cloudtrail_enabled": false
+    }
+}

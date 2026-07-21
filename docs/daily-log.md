@@ -88,3 +88,29 @@ Response
 ### Next Step
 
 Build the API architecture and implement the first cloud security scanner module.
+
+## 21 July 2026 — Day 3
+
+### Goal
+
+Build the first mock cloud security scanner.
+
+### Completed
+
+- Created mock cloud configuration JSON
+- Implemented SecurityScanner class
+- Added security rule checks
+- Added /scan API endpoint
+- Successfully returned security findings in JSON format
+- Tested backend using Flask
+
+### Learned
+
+- Reading JSON files in Python
+- Creating classes and methods
+- Returning JSON responses with Flask
+- Basic cloud security scanning workflow
+
+### Next Step
+
+Map scanner findings to NIST CSF 2.0 categories and improve report format.
