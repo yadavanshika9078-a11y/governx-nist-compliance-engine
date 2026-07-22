@@ -114,3 +114,27 @@ Build the first mock cloud security scanner.
 ### Next Step
 
 Map scanner findings to NIST CSF 2.0 categories and improve report format.
+
+## 22 July 2026 — NIST Compliance Mapping
+
+### Goal
+
+Map detected security findings to NIST CSF 2.0 controls.
+
+### Completed
+
+- Created nist_mapping.json
+- Added NIST CSF mappings for all security findings
+- Enhanced SecurityScanner to load NIST mapping
+- Automatically attached NIST category and title to each finding
+- Verified mapping through the /scan API endpoint
+
+### Learned
+
+- JSON files can store compliance mappings.
+- Python dictionaries make lookup operations efficient.
+- Compliance frameworks help classify security findings.
+
+### Next Step
+
+Generate a compliance report with severity summary and NIST categories.

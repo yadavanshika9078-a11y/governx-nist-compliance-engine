@@ -15,8 +15,13 @@ class SecurityScanner:
         with open(self.file_path, "r") as file:
             return json.load(file)
 
+    def load_nist_mapping(self):
+        with open("backend/data/nist_mapping.json", "r") as file:
+           return json.load(file)
+    
     def scan(self):
         config = self.load_configuration()
+        nist_mapping = self.load_nist_mapping()
 
         findings = []
 
@@ -80,4 +85,13 @@ class SecurityScanner:
                 "severity": "Medium"
             })
 
+        for finding in findings:
+            
+            finding_id = finding["id"]
+
+            if finding_id in nist_mapping:
+
+               finding["nist_category"] = nist_mapping[finding_id]["nist_category"]
+
+               finding["nist_title"] = nist_mapping[finding_id]["title"]
         return findings

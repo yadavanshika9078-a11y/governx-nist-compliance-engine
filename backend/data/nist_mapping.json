@@ -1,0 +1,36 @@
+{
+    "ST001": {
+        "nist_category": "PR.DS",
+        "title": "Public Storage Bucket"
+    },
+
+    "ST002": {
+        "nist_category": "PR.DS",
+        "title": "Encryption Disabled"
+    },
+
+    "IAM001": {
+        "nist_category": "PR.AA",
+        "title": "MFA Disabled"
+    },
+
+    "IAM002": {
+        "nist_category": "PR.AA",
+        "title": "Inactive Users"
+    },
+
+    "IAM003": {
+        "nist_category": "PR.AA",
+        "title": "Weak Password Policy"
+    },
+
+    "NET001": {
+        "nist_category": "PR.PT",
+        "title": "Open Security Group"
+    },
+
+    "LOG001": {
+        "nist_category": "DE.CM",
+        "title": "CloudTrail Disabled"
+    }
+}

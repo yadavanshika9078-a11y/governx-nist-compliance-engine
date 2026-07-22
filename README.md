@@ -55,6 +55,20 @@ Build a safe demonstration platform that:
 Next:
 NIST CSF Mapping
 
+Current Progress
+
+✅ Backend API Completed
+
+✅ Security Scanner Completed
+
+✅ NIST Mapping Completed
+
+⬜ Compliance Report Generator (Next)
+
+⬜ Dashboard
+
+⬜ PDF Report Export
+
 ## Safety Note
 
 This project uses mock/sample cloud data only. It will not access real cloud accounts or store credentials.
