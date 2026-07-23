@@ -138,3 +138,29 @@ Map detected security findings to NIST CSF 2.0 controls.
 ### Next Step
 
 Generate a compliance report with severity summary and NIST categories.
+
+## 23 July 2026 — Report Generation
+
+### Goal
+
+Generate a formatted security report from scan findings and make it available through a dedicated API endpoint.
+
+### Completed
+
+- Created `report_service.py`
+- Implemented the `ReportGenerator` class
+- Generated formatted text reports from scan findings
+- Added the `/report` API endpoint
+- Added the `/download-report` endpoint for downloading reports
+- Included NIST category and title information in the report
+- Verified report generation through browser testing
+
+### Learned
+
+- Separating report generation into its own service improves code organization.
+- Flask can return plain text responses and downloadable files.
+- Formatting reports makes scan results easier to read and understand.
+
+### Next Step
+
+Implement a risk score calculator and build a dashboard to visualize scan results.
